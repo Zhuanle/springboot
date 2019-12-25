@@ -19,8 +19,6 @@ import java.util.List;
   }
 
   @RequestMapping("/listProduct") public List<Product> list() {
-    List<Product> list = new ArrayList<>();
-    list.add()
     return productService.list();
   }
 }
