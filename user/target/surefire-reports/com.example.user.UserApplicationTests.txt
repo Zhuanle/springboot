@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.example.user.UserApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.37 s <<< FAILURE! - in com.example.user.UserApplicationTests
+com.example.user.UserApplicationTests  Time elapsed: 0.368 s  <<< ERROR!
+java.lang.IllegalStateException: Found multiple @SpringBootConfiguration annotated classes [Generic bean: class [com.example.user.SpringbootmybatisApplication]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\IdeaProjects\springboot1\user\target\classes\com\example\user\SpringbootmybatisApplication.class], Generic bean: class [com.example.user.UserApplication]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\IdeaProjects\springboot1\user\target\classes\com\example\user\UserApplication.class]]
+

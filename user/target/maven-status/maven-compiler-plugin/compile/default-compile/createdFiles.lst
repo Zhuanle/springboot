@@ -1,0 +1,3 @@
+com\example\user\UserApplication.class
+com\example\user\controller\TestController.class
+com\example\user\mapper\TestMapper.class
